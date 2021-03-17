@@ -15,7 +15,7 @@ Proiect HTML cu tematica Linux pentru Atestatul la Informatica.
 
 ## Autori
 
-| [![ArminC](http://www.gamerconfig.eu/files/avatars/thumbnail_arminc.png)](https://linkedin.com/in/arminc) 	| [![BootstrapMade](https://bootstrapmade.com/theme/img/logo-hero.png=100x20)](https://bootstrapmade.com/)		|
+| [![ArminC](http://www.gamerconfig.eu/files/avatars/thumbnail_arminc.png)](https://linkedin.com/in/arminc) 	| [![BootstrapMade](https://bootstrapmade.com/theme/img/logo-hero.png|width=100px)](https://bootstrapmade.com/)		|
 |:---------------------------------------------------------------------------------------------------------:	|:-------------------------------------------------------------------------------------------------------:		|
 |                                            **Armin Chanchian**                                            	|                                    **BootstrapMade (stilizare)**                         			            |
 
