@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Taguri Meta -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Linux - Atestat Informatica</title>
+  <meta name="title" content="Linux - Atestat Informatica">
+  <meta name="description" content="Proiect HTML cu tematica Linux pentru Atestatul la Informatica">
+  <meta name="keywords" content="atestat, anformatica, linux, html, css, bootstrap, javascript">
+  <meta name="image" content="https://arminc.ga/resources/arminc.png">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.arminc.ga/">
+  <meta property="og:title" content="Linux - Atestat Informatica">
+  <meta property="og:description" content="Proiect HTML cu tematica Linux pentru Atestatul la Informatica">
+  <meta property="og:image" content="https://arminc.ga/resources/arminc.png">
+
+  <!-- Iconita Favorite -->
+  <link href="assets/img/misc/favicon.svg" rel="icon">
+  <link href="assets/img/misc/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonturi Google -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Fisiere CSS -->
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/glightbox@3.0.7/dist/css/glightbox.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/swiper@6.5.0/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Fisier Principal CSS -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--  ### Antet ### -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="index.html">Linux</a></h1>
+      <h2>Cel mai modern sistem de operare <span>open-source</span></h2>
+
+      <!--  ## Meniu Navigare ## -->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Acasa</a></li>
+		  <li><a class="nav-link" href="#introducere">Introducere</a></li>
+          <li><a class="nav-link" href="#istoric">Istoric</a></li>
+          <li><a class="nav-link" href="#caracteristici">Caracteristici</a></li>
+          <li><a class="nav-link" href="#kernel">Kernel</a></li>
+		  <li><a class="nav-link" href="#galerie">Galerie</a></li>
+          <li><a class="nav-link" href="#despre">Despre</a></li>
+        </ul>
+        <ion-icon name="ellipsis-vertical-sharp" class="mobile-nav-toggle"></ion-icon>
+      </nav><!-- .navbar -->
+
+      <div class="links">
+        <a href="https://www.reddit.com/r/linux/"><ion-icon name="logo-reddit"></ion-icon></a>
+        <a href="https://itsfoss.com/"><ion-icon name="newspaper-outline"></ion-icon></a>
+        <a href="https://lwn.net/"><ion-icon name="megaphone-outline"></ion-icon></a>
+        <a href="https://kernelnewbies.org/LinuxVersions"><ion-icon name="archive-outline"></ion-icon></a>
+      </div> 
+
+    </div>
+  </header><!-- Sfarsit Antet -->
+  
+  <!-- ### Introducere ### -->
+  <section id="introducere" class="introducere">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Introducere</h2>
+        <p>Ce este Linux?</p>
+      </div>
+	  
+      <div class="row content">
+        <div class="col-lg-6 pt-4 pt-lg-0">
+          <p>
+            Linux este cel mai cunoscut si mai utilizat sistem de operare open source. Ca sistem de operare, Linux 
+		    este software-ul care sta la baza tuturor celorlaltor programe de pe un computer, primind cereri de 
+			la acele programe si retransmitand aceste solicitari catre hardware-ul computerului.
+	      </p>
+		  <p>
+		    In multe feluri, Linux este similar cu celalalte sisteme de operare existente. Acesta are o interfata grafica si aceleasi tipuri 
+			de software-uri, cum ar fi procesor de text, editor de fotografii, editor de videoclipuri etc. In majoritatea cazurilor, 
+			software-urile altor sisteme de operare au o versiune nativa si pentru Linux. Totodata, acelea care sunt incompatibile 
+			pot fi rulate prin intermediul asistentilor de compatibilitate care permit rularea lor in mod obisnuit.
+          </p>
+	      <p>
+            Totodata, Linux a ajuns la o baza de utilizatori care se intinde pe tot globul, fiind inglobat si avand utilizari in:
+          </p>
+		  
+		  <!-- ## Utilizari ## -->
+		  <div class="utilizari">
+		    <div class="row">
+          	  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="server-outline" style="color: #5578ff;"></ion-icon>
+                    <h3>Servere</h3>
+                </div>
+        	  </div>
+			  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="laptop-outline" style="color: #ffbb2c;"></ion-icon>
+                    <h3>Computere</h3>
+                </div>
+              </div>
+			  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="game-controller-outline" style="color: #4233ff;"></ion-icon>
+                    <h3>Console</h3>
+                </div>
+        	  </div>
+        	  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="phone-portrait-outline" style="color: #b2904f;"></ion-icon>
+                    <h3>Telefoane</h3>
+                </div>
+        	  </div>
+        	  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="watch-outline" style="color: #b20969;"></ion-icon>
+                    <h3>Ceasuri</h3>
+                </div>
+        	  </div>
+          	  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="wifi-outline" style="color: #e80368;"></ion-icon>
+                    <h3>Routere</h3>
+                </div>
+        	  </div>
+        	  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="tv-outline" style="color: #e361ff;"></ion-icon>
+                    <h3>Televizoare</h3>
+                </div>
+        	  </div>
+        	  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="file-tray-stacked-outline" style="color: #47aeff;"></ion-icon>
+                    <h3>Frigidere</h3>
+                </div>
+        	  </div>
+        	  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="thermometer-outline" style="color: #ffa76e;"></ion-icon>
+                    <h3>Termostate</h3>
+                </div>
+        	  </div>
+        	  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="tablet-portrait-outline" style="color: #11dbcf;"></ion-icon>
+                    <h3>E-Readere</h3>
+                </div>
+        	  </div>
+        	  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="car-sport-outline" style="color: #ff5828;"></ion-icon>
+                    <h3>Masini</h3>
+                </div>
+        	  </div>
+        	  <div class="col-lg-6 col-md-4 mt-4">
+                <div class="icon-box">
+				  <ion-icon name="rocket-outline" style="color: #29cc61;"></ion-icon>
+				    <h3>Rachete</h3>
+                </div>
+        	  </div>
+            </div>
+		  </div><!-- Sfarsit Utilizari -->
+
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0">
+          <p>
+            Sistemul de operare Linux cuprinde mai multe parti diferite:
+          </p>
+          <ul>
+            <li><ion-icon name="arrow-forward-outline"></ion-icon> <strong>Bootloader</strong></li>
+			  <p>
+		        Acesta este software-ul care gestioneaza procesul de pornire al computerului. 
+				El incarca kernel-ul Linux in memoria principala a computerului.
+		      </p>
+            <li><ion-icon name="arrow-forward-outline"></ion-icon> <strong>Kernel</strong></li>
+			  <p>
+			    Acesta este de fapt, elementul principal care constituie Linux-ul. Kernel-ul 
+				este nucleul sistemului si gestioneaza procesorul, memoria si dispozitivele 
+				periferice. El este cel mai "adanc strat" al sistemului de operare.
+				Totodata, Linux se constituie drept un kernel monolitic.
+		      </p>
+            <li><ion-icon name="arrow-forward-outline"></ion-icon> <strong>Init</strong></li>
+			  <p>
+			    Acesta este primul proces lansat de kernel-ul Linux si se afla la baza procesului: 
+			    cu alte cuvinte, toate procesele sunt lansate prin init. Porneste procese precum 
+				servicii de sistem si solicitari de conectare (fie grafice, fie in modul terminal).
+		      </p>
+            <li><ion-icon name="arrow-forward-outline"></ion-icon> <strong>Daemons</strong></li>
+			  <p>
+				Acestea sunt servicii de fundal (printare, sunet, planificare etc.) care 
+				pornesc de obicei, in timpul initializarii computerului.
+		      </p>
+            <li><ion-icon name="arrow-forward-outline"></ion-icon> <strong>Display server</strong></li>
+			  <p>
+			    Acesta este un sub-program a carui sarcina principala este de a afisa grafica.
+		      </p>
+            <li><ion-icon name="arrow-forward-outline"></ion-icon> <strong>Desktop environment</strong></li>
+			  <p>
+			    Aceasta este piesa cu care utilizatorii interactioneaza de fapt. Exista mai multe tipuri de interfete desktop. Fiecare mediu 
+			    desktop include software-uri incorporate (cum ar fi manageri de fisiere, instrumente de configurare, browsere web si jocuri).
+		      </p>
+            <li><ion-icon name="arrow-forward-outline"></ion-icon> <strong>Software</strong></li>
+			  <p>
+                 Mediile desktop nu ofera o gama completa de software-uri. La fel ca restul sistemelor de operare, 
+				 Linux ofera o multitudine de software-uri care se pot descarca, spre exemplu, prin intermediul 
+				 magazinelor, care centralizeaza si simplifica instalarea software-ului. 
+	          </p>
+          </ul>
+        </div>
+      </div>
+	  
+    </div>
+  </section><!-- Sfarsit Sectiune Introducere -->
+
+  <!-- ### Sectiune Istoric ### -->
+  <section id="istoric" class="istoric">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Istoric</h2>
+        <p>Cum a aparut Linux?</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="assets/img/content/linus.png" class="img-fluid" alt="Linus Torvalds">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content">
+          <h3>Linus Torvalds</h3>
+          <p class="fst-italic">
+            Este fiul jurnalistilor Anna si Nils Torvalds, si nepotul statisticianului Leo Tornqvist si al poetului Ole Torvalds.
+			Torvalds a fost numit dupa Linus Pauling, laureat al premiului Nobel pentru chimie.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><ion-icon name="chevron-forward-outline"></ion-icon> <strong>Nascut:</strong> <span>28 Decembrie 1969</span></li>
+                <li><ion-icon name="chevron-forward-outline"></ion-icon> <strong>Origine:</strong> <span>Finlanda, Helsinki</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><ion-icon name="chevron-forward-outline"></ion-icon> <strong>Ocupatie:</strong> <span>Inginer software</span></li>
+                <li><ion-icon name="chevron-forward-outline"></ion-icon> <strong>Cunoscut pentru:</strong> <span>Linux, Git</span></li>
+              </ul>
+            </div>
+          </div>
+		  
+		  <!-- ## Cronologie ## -->
+          <div class="cronologie accordion accordion-flush" id="tab">
+		  
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tab1">
+                  Motivul aparitiei
+                </button>
+              </h2>
+              <div id="tab1" class="accordion-collapse collapse" data-bs-parent="#tab">
+                <div class="accordion-body">
+                La varsta de 10 ani, Torvalds a inceput sa programeze pe computerul Commodore VIC-20 al bunicului sau. In 1991, 
+			    in timp studia informatica la Universitatea din Helsinki, si-a cumparat primul sau computer. Cu toate acestea, 
+			    el nu era multumit de sistemul de operare preinstalat. Acesta era echipat cu MS-DOS, dar Torvalds prefera 
+			    sistemul de operare UNIX pe care il folosise pe computerele universitatii. El a decis sa creeze propria sa 
+			    versiune de computer bazata pe UNIX.                  
+				</div>
+              </div>
+            </div>
+			
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tab2">
+                  Inceputurile Linux
+                </button>
+              </h2>
+              <div id="tab2" class="accordion-collapse collapse" data-bs-parent="#tab">
+                <div class="accordion-body">
+				  Dupa luni de programare, a luat nastere baza unui sistem de operare care avea sa fie cunoscut sub numele de Linux. 
+		          In 1991 a postat un mesaj pe Internet pentru a anunta alti utilizatori de computere cu privire la noul sau sistem, 
+		    	  punand software-ul la dispozitie pentru descarcare gratuita si, asa cum era o practica obisnuita in randul 
+		    	  dezvoltatorilor de software la acea vreme, a lansat codul sursa, ceea ce insemna ca oricine avea cunostinte despre
+		    	  programarea computerelor ar fi putut modifica Linux pentru le deservi propriilor scopuri. Datorita codului cu 
+				  sursa deschisa, multi programatori l-au ajutat Torvalds sa reorganizeze si sa rafineze software-ul, iar in 1994 
+				  a fost lansata prima versiune a kernel-ului Linux.
+                </div>
+              </div>
+            </div>
+			
+          </div><!-- Sfarsit Cronologie -->
+		  
+        </div>
+      </div>
+	  
+    </div>
+  </section><!-- Sfarsit Sectiune Istoric -->
+  
+  <!-- ### Sectiune Caracteristici ### -->
+  <section id="caracteristici" class="caracteristici">
+
+    <!-- ## Descriere ## -->
+    <div class="descriere container">
+
+      <div class="section-title">
+        <h2>Descriere</h2>
+        <p>Prin ce se deosebeste Linux?</p>
+      </div>
+	  
+      <div class="row">
+        <div class="col-lg-6 order-1 order-lg-2">
+          <div class="descriere-img">
+            <img src="assets/img/content/tux.png" alt="Tux">
+          </div>
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+          <p>
+            Linux este diferit de celalalte sisteme de operare in multe moduri importante. In primul rand, si poate cel 
+			mai important, Linux este un software open source, asadar, codul folosit pentru a crea Linux este gratuit 
+			si disponibil publicului larg.
+          </p>
+	      <p>
+			Printre principalele caracteristici ale acestuia se enumera:
+	      </p>
+          <ul>
+            <li><ion-icon name="checkmark-done-outline"></ion-icon> Libertatea de a il rula, in orice scop.</li>
+            <li><ion-icon name="checkmark-done-outline"></ion-icon> Libertatea de a studia si de a schimba modul lui de functionare.</li>
+            <li><ion-icon name="checkmark-done-outline"></ion-icon> Libertatea de a il distribui, chiar si modificat, in mod gratuit.</li>
+          </ul>
+          <p>
+            Totodata, elementele de baza ale sistemului de operare Linux sunt in general comune, existand insa, mai multe 
+			distributii care includ optiuni diferite de software-uri. Asadar, Linux este incredibil de personalizabil, 
+			deoarece nu doar acele software-uri obisnuite pot fi schimbate ci si componentele de baza, cum ar fi 
+			sistemul de afisare al graficii dar si alte componente ale interfetei utilizatorului.
+          </p>
+        </div>
+      </div>
+
+    </div><!-- Sfarsit Descriere -->
+
+    <!-- ## Distributii ## -->
+	<div class="distributii container">
+
+      <div class="section-title">
+        <h2>Distributii Moderne</h2>
+      </div>
+
+      <div class="row">
+	    <div class="col-lg-3">
+	      <ul class="nav nav-tabs flex-column">
+		    <li class="nav-item">
+		      <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">OpenSUSE</a>
+            </li>
+			<li class="nav-item">
+			  <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Pop!_OS</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Linux Mint</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-bs-toggle="tab" href="#tab-4">EndeavourOS</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-bs-toggle="tab" href="#tab-5">elementary OS</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-bs-toggle="tab" href="#tab-6">Zorin OS</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-bs-toggle="tab" href="#tab-7">Deepin</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" data-bs-toggle="tab" href="#tab-8">Qubes OS</a>
+			</li>
+	      </ul>
+		</div>
+		<div class="col-lg-9 mt-4 mt-lg-0">
+	      <div class="tab-content">
+			<div class="tab-pane active show" id="tab-1">
+			  <div class="row">
+				<div class="col-lg-8 details order-2 order-lg-1">
+				  <a href="https://www.opensuse.org/"><h3>openSUSE</h3></a>
+				  <p>
+					Este o distributie dezvoltata de comunitate si sponsorizata de compania SUSE. Mentine o politica 
+					stricta in ceea ce priveste instalarile standard, care trebuie sa contina doar cod open-source. 
+					Tumbleweed este versiunea cu actualizari constante, care ofera cele mai recente versiuni 
+					software, insa acelea care trec de testarea automata.
+			      </p>
+			      <p class="fst-italic">
+					Se bazeaza pe managerul de pachete YaST pentru gestionarea pachetelor software si 
+					este recomandat dezvoltatorilor si administratorilor de sistem.
+			      </p>
+				</div>
+				<div class="col-lg-4 text-center order-1 order-lg-2">
+				  <img src="assets/img/distro/suse.png" alt="SUSE" class="img-fluid">
+				</div>
+				</div>
+			</div>
+			<div class="tab-pane" id="tab-2">
+		      <div class="row">
+				<div class="col-lg-8 details order-2 order-lg-1">
+			      <a href="https://pop.system76.com/"><h3>Pop!_OS</h3></a>
+				  <p>
+				    Este o distributie bazata pe Ubuntu si dezvoltata de System76 in principal pentru 
+					utilizarea pe computerele produse de acestia. Spre deosebire de multe alte 
+					distributii Linux, acesta nu se axeaza pe contributiile comunitatii.
+				  </p>
+				  <p class="fst-italic">
+					Este considerata o distributie usoara de configurat pentru jocuri, 
+					in principal datorita suportului placilor grafice deja incorporat.
+				  </p>
+				</div>
+				<div class="col-lg-4 text-center order-1 order-lg-2">
+				  <img src="assets/img/distro/pop-os.png" alt="Pop!_OS" class="img-fluid">
+				</div>
+			  </div>
+			</div>
+			<div class="tab-pane" id="tab-3">
+		      <div class="row">
+				<div class="col-lg-8 details order-2 order-lg-1">
+				  <a href="https://www.linuxmint.com/"><h3>Linux Mint</h3></a>
+				  <p>
+					Este o distributie bazata pe Ubuntu si este adaptat pentru utilizatorii neexperimentati, 
+					avand in prim-plan simplitatea si usurinta utilizarii.
+				  </p>
+				  <p class="fst-italic">
+					Ofera suport multimedia complet disponibil, care include 
+					software proprietar, cum ar fi codecuri multimedia.
+				  </p>
+				</div>
+				<div class="col-lg-4 text-center order-1 order-lg-2">
+				  <img src="assets/img/distro/linux-mint.png" alt="Linux Mint" class="img-fluid">
+				</div>
+		      </div>
+			</div>
+			<div class="tab-pane" id="tab-4">
+			  <div class="row">
+				<div class="col-lg-8 details order-2 order-lg-1">
+				  <a href="https://endeavouros.com/"><h3>EndeavourOS</h3></a>
+				  <p>
+					Este o distributie bazata pe Arch Linux, in principal centrata pe terminal, 
+					avand doar cateva instrumente cu interfata grafica preinstalate.
+				  </p>
+			      <p class="fst-italic">
+					Se bazeaza pe managerul de pachete Yay si implica 
+					actualizari constante la cele mai recente versiuni.
+				  </p>
+				</div>
+				<div class="col-lg-4 text-center order-1 order-lg-2">
+				  <img src="assets/img/distro/endeavouros.png" alt="EndeavourOS" class="img-fluid">
+				</div>
+		      </div>
+			</div>
+			<div class="tab-pane" id="tab-5">
+			  <div class="row">
+			    <div class="col-lg-8 details order-2 order-lg-1">
+				  <a href="https://elementary.io/"><h3>elementary OS</h3></a>
+				  <p>
+					Este o distributie bazata pe Ubuntu si este axata in principal pe utilizatori 
+					neexperimentati, fiind construita cu un fler real pentru design datorita 
+					trasarii ghidului in ceea ce priveste orientarile aspectului.
+				  </p>
+				  <p class="fst-italic">
+					Se bazeaza pe managerul de pachete App Center, distributia avand un model 
+					de plata selectiv, suma ramanand la latitudinea fiecarui utilizator.
+				  </p>
+				</div>
+				<div class="col-lg-4 text-center order-1 order-lg-2">
+				  <img src="assets/img/distro/elementary-os.png" alt="Elementary OS" class="img-fluid">
+				</div>
+		      </div>
+			</div>
+			<div class="tab-pane" id="tab-6">
+			  <div class="row">
+				<div class="col-lg-8 details order-2 order-lg-1">
+				  <a href="https://zorinos.com/"><h3>Zorin OS</h3></a>
+				  <p>
+					Este o distributie bazata pe Ubuntu, usora de utilizat, care este livrata 
+					cu o interfata de utilizare eleganta.
+				  </p>
+			      <p class="fst-italic">
+				    Un aspect cheie este capacitatea sa de a rula impresionant 
+					de bine pe computerele mai putin performante.
+			      </p>
+				</div>
+				<div class="col-lg-4 text-center order-1 order-lg-2">
+				  <img src="assets/img/distro/zorin-os.png" alt="Zorin OS" class="img-fluid">
+				</div>
+			  </div>
+			</div>
+			<div class="tab-pane" id="tab-7">
+			  <div class="row">
+			    <div class="col-lg-8 details order-2 order-lg-1">
+				  <a href="https://www.deepin.org/"><h3>Deepin</h3></a>
+				  <p>
+					Este o distributie bazata pe Debian, dezvoltata de Wuhan Deepin Technology, adaptata 
+				    pentru a oferi utilizatorului o experienta interactiva.
+				  </p>
+			      <p class="fst-italic">
+					Patura de utilizatori este predominant chineza, Huawei 
+					livrand computere Linux preinstalate cu Deepin.
+				  </p>
+				</div>
+				<div class="col-lg-4 text-center order-1 order-lg-2">
+				  <img src="assets/img/distro/deepin.png" alt="Deepin" class="img-fluid">
+				</div>
+		      </div>
+			</div>
+			<div class="tab-pane" id="tab-8">
+			  <div class="row">
+				<div class="col-lg-8 details order-2 order-lg-1">
+				  <a href="https://www.qubes-os.org/"><h3><h3>Qubes OS</h3></a>
+				  <p>
+					Este o distributie bazata pe Fedora, care se axeaza pe securitate, cu unicul scop de a 
+					asigurara securitatea prin intermediul izolarii, adica rularea fiecarei instante a 
+					programelor care ruleaza intr-un mediu virtual izolat si apoi stergerea tuturor 
+					datelor sale atunci cand programul este inchis.
+				  </p>
+				  <p class="fst-italic">
+					Se bazeaza pe managerul de pachete RPM si este considerat 
+					drept cel mai sigur sistem de operare existent.
+				  </p>
+				</div>
+				<div class="col-lg-4 text-center order-1 order-lg-2">
+			      <img src="assets/img/distro/qubes-os.png" alt="Qubes OS" class="img-fluid">
+				</div>
+			  </div>
+			</div>
+	      </div>
+		</div>
+      </div>
+
+	</div><!-- Sfarsit Distributii -->
+	  
+	  <!-- ## Medii ## -->
+	  <div class="medii container">
+
+      <div class="section-title">
+        <h2>Medii Desktop</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="box">
+		    <a href="https://kde.org/plasma-desktop/">
+              <img src="assets/img/de/kde-plasma.png" class="img-fluid" alt="KDE Plasma">
+              <h4>KDE Plasma<h4>
+			</a>
+            <p>
+			  KDE Plasma este un mediu desktop popular. Puternic si foarte personalizabil, acesta este 
+			  conceput pentru a oferi utilizatorilor un control absolut asupra computerului lor.
+			</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="box">
+		    <a href="https://www.gnome.org/">
+              <img src="assets/img/de/gnome.png" class="img-fluid" alt="GNOME">
+              <h4>GNOME</h4>
+			</a>
+            <p>
+			  GNOME este probabil cel mai popular mediu desktop, fiind 
+			  conceput pentru a fi personalizat si usor de utilizat.
+			</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="box">
+		    <a href="https://projects.linuxmint.com/cinnamon/">
+              <img src="assets/img/de/cinnamon.png" class="img-fluid" alt="Cinnamon">
+              <h4>Cinnamon<h4>
+			</a>
+            <p>
+			  Cinnamon este o versiune derivata a mediului desktop GNOME, dar care 
+			  respecta conventiile traditionale ale interfetei.
+			</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="box">
+		    <a href="https://www.xfce.org/">
+              <img src="assets/img/de/xfce.png" class="img-fluid" alt="Xfce">
+              <h4>Xfce<h4>
+			</a>
+            <p>
+			 Xfce este un mediu desktop usor care este eficient si nu consuma multe resurse de sistem, 
+			 fiind totusi atragator din punct de vedere vizual si usor de utilizat.
+			</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="box">
+		    <a href="https://www.deepin.org/en/dde/">
+              <img src="assets/img/de/dde.png" class="img-fluid" alt="DDE">
+              <h4>DDE<h4>
+			</a>
+            <p>
+			  Deepin Desktop Environment este un mediu desktop care ofera un 
+			  design elegant, usor de utilizat, sigur si fiabil.
+			</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="box">
+		    <a href="https://swaywm.org/">
+              <img src="assets/img/de/sway.png" class="img-fluid" alt="Sway">
+              <h4>Sway<h4>
+			</a>
+            <p>
+			  Sway este un manager de ferestre, nefiind un mediu desktop in adevaratul 
+			  sens, acesta concentrandu-se mai degraba pe interfata tip text 
+			  decat cea grafica si putand fi combinat cu alte medii desktop.
+			</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- Sfarsit Medii -->
+
+  </section><!-- Sfarsit Sectiune Caracteristici -->
+  
+  <!-- ### Sectiune Kernel ### -->
+  <section id="kernel" class="kernel">
+  
+    <!-- ## Atribute Kernel ## -->
+	<div class="atribute container">
+
+      <div class="section-title">
+        <h2>Kernel</h2>
+        <p>Atributele unui Kernel</p>
+      </div>
+
+      <div class="row content">
+        <div class="col-lg-6">
+       
+	      <!-- # Tipuri # -->
+          <div class="tipuri">
+
+            <p>
+			  Acesta decide ce proces de executat trebuie alocat procesorului si care trebuie pastrat in memoria 
+		      principala. Practic, actioneaza ca o interfata intre software-ul si hardware-ul computerului.
+			</p>
+			<p>
+			  Kernel-ul poate fi clasificat, in continuare, in doua categorii, micro kernel si kernel monolitic:
+			<p>
+
+            <div class="icon-box">
+              <div class="icon"><ion-icon name="cube-outline"></ion-icon></div>
+                <h4 class="title">Kernel Monolitic</h4>
+                <p class="description">
+			      Toate serviciile sistemului de operare functioneaza in spatiul kernel. Are dependente intre 
+		          componentele sistemelor. Are linii uriase de cod care sunt complexe.
+		        </p>
+            </div>
+
+            <div class="icon-box">
+              <div class="icon"><ion-icon name="layers-outline"></ion-icon></div>
+                <h4 class="title">Micro Kernel</h4>
+                <p class="description">
+			      Are o abordare minimalista. Are memorie virutala si programare a firului de secventa. Este mai 
+				  stabil, cu mai putine servicii in spatiul kernel. Pune restul in spatiul utilizatorului.
+			    </p>
+            </div>
+			  
+          </div><!-- Sfarsit Tipuri -->
+
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0">
+          <ul>
+            <li>
+		      <ion-icon name="remove-outline"></ion-icon>
+		      Executarea kernel-ului monolitic este mai rapida, deoarece comunicarea dintre software si hardware 
+		      este realizata utilizand apelul de sistem. Pe de alta parte, executia micro kernel-ului 
+		      este lenta, deoarece ea se realizeaza prin transmitere de mesaje.
+			</li>
+            <li>
+			  <ion-icon name="remove-outline"></ion-icon>
+			  Micro kernel-ul este usor de extins, deoarece noul serviciu ramane sa fie adaugat in spatiul 
+		      de adresa al utilizatorului, care este izolat de spatiul kernel-ului, astfel incat el nu 
+		      trebuie modificat, spre deosebire de kernelul monolitic care trebuie modificat.
+			</li>
+			<li>
+			  <ion-icon name="remove-outline"></ion-icon>
+			  Kernel-ul monolitic este mai instabil decat micro kernel-ul, deoarece daca un serviciu 
+		      se blocheaza, intregul sistem ingheata. Pe de alta parte, daca un serviciu se 
+			  blocheaza in micro kernel, sistemul de operare ramane complet neafectat.
+		    </li>
+            <li>
+			  <ion-icon name="remove-outline"></ion-icon>
+			  Proiectarea micro kernel-ului necesita mai mult cod, ceea ce poate duce la aparitia a mai multor 
+		   	  erori, spre deosebire de kernel-ul monolitic care necesita mai putin cod, deci mai putine erori.
+		    </li>
+          </ul>
+        </div>
+      </div>
+	  
+	</div><!-- Sfarsit Atribute -->
+		
+      <!-- ## Redox OS ## -->
+	  <div class="redox container">
+
+        <div class="section-title">
+          <h2>Micro Kernel</h2>
+        </div>
+		
+		<div class="row">
+          <div class="col-lg-6 order-1 order-lg-2">
+		    <img src="assets/img/content/redox-os.png" alt="Redox OS" class="img-fluid">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1">
+		  <div class="redox-item pb-0">
+              <h3>Redox OS</h3>
+              <p>
+			    Redox este un sistem de operare de tip micro kernel Unix, scris in limbajul de programare Rust, 
+				obiectivele sale principale fiind inovatia, siguranta, stabilitatea cat si performantele ridicate.
+			  </p>
+			  <p>
+			    Acesta se bazeaza pe un ecosistem de software-uri scrise in Rust.
+			  </p>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- Sfarsit Redox OS -->
+	
+  </section><!-- Sfarsit Sectiune Kernel -->
+  
+  <!-- ### Sectiune Galerie ### -->
+  <section id="galerie" class="galerie">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Galerie</h2>
+        <p>Imagini Linux</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="galerie-flters">
+            <li data-filter="*" class="filter-active">Toate</li>
+			<li data-filter=".filter-de">Mediu</li>
+            <li data-filter=".filter-distro">Distributie</li>
+            <li data-filter=".filter-aesthetics">Estetica</li>
+			<li data-filter=".filter-misc">Altele</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row galerie-container">
+
+        <div class="col-lg-4 col-md-6 galerie-item filter-de">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/de/plasma.png" class="img-fluid" alt="Plasma">
+            <div class="galerie-info">
+              <h4>Plasma</h4>
+              <p>Mediu Desktop</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/de/plasma.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://kde.org/plasma-desktop/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 galerie-item filter-de">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/de/gnome.png" class="img-fluid" alt="GNOME">
+            <div class="galerie-info">
+              <h4>GNOME</h4>
+              <p>Mediu Desktop</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/de/gnome.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.gnome.org/gnome-3/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-de">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/de/cinnamon.png" class="img-fluid" alt="Cinnamon">
+            <div class="galerie-info">
+              <h4>Cinnamon</h4>
+              <p>Mediu Desktop</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/de/cinnamon.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://projects.linuxmint.com/cinnamon/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-de">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/de/xfce.png" class="img-fluid" alt="Xfce">
+            <div class="galerie-info">
+              <h4>Xfce</h4>
+              <p>Mediu Desktop</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/de/xfce.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.xfce.org/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-de">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/de/dde.png" class="img-fluid" alt="DDE">
+            <div class="galerie-info">
+              <h4>DDE</h4>
+              <p>Mediu Desktop</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/de/dde.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.deepin.org/en/dde/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-de">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/de/sway.png" class="img-fluid" alt="Sway">
+            <div class="galerie-info">
+              <h4>Sway</h4>
+              <p>Mediu Desktop - Manager Ferestre</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/de/sway.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://swaywm.org/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-distro">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/distro/opensuse.png" class="img-fluid" alt="openSUSE">
+            <div class="galerie-info">
+              <h4>openSUSE</h4>
+              <p>Distributie</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/distro/opensuse.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.opensuse.org/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-distro">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/distro/pop-os.png" class="img-fluid" alt="Pop!_OS">
+            <div class="galerie-info">
+              <h4>Pop!_OS</h4>
+              <p>Distributie</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/distro/pop-os.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://pop.system76.com/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-distro">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/distro/linux-mint.png" class="img-fluid" alt="Linux Mint">
+            <div class="galerie-info">
+              <h4>Linux Mint</h4>
+              <p>Distributie</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/distro/linux-mint.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.linuxmint.com/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-distro">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/distro/endeavouros.png" class="img-fluid" alt="EndeavourOS">
+            <div class="galerie-info">
+              <h4>EndeavourOS</h4>
+              <p>Distributie</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/distro/endeavouros.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://endeavouros.com/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-distro">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/distro/elementary-os.png" class="img-fluid" alt="elementary OS">
+            <div class="galerie-info">
+              <h4>elementary OS</h4>
+              <p>Distributie</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/distro/elementary-os.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://elementary.io/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-distro">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/distro/zorin-os.png" class="img-fluid" alt="Zorin OS">
+            <div class="galerie-info">
+              <h4>Zorin OS</h4>
+              <p>Distributie</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/distro/zorin-os.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://zorinos.com/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-distro">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/distro/deepin.png" class="img-fluid" alt="Deepin">
+            <div class="galerie-info">
+              <h4>Deepin</h4>
+              <p>Distributie</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/distro/deepin.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.deepin.org/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-distro">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/distro/qubes-os.png" class="img-fluid" alt="Qubes OS">
+            <div class="galerie-info">
+              <h4>Qubes OS</h4>
+              <p>Distributie</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/distro/qubes-os.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.qubes-os.org/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-aesthetics">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/aesthetics/serenade.png" class="img-fluid" alt="Serenade">
+            <div class="galerie-info">
+              <h4>Serenade</h4>
+              <p>Estetica</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/aesthetics/serenade.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.reddit.com/r/unixporn/comments/lhljmi/bspwm_serenade_a_low_contrast_setup_for_my/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-aesthetics">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/aesthetics/genome.png" class="img-fluid" alt="Genome">
+            <div class="galerie-info">
+              <h4>Genome</h4>
+              <p>Estetica</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/aesthetics/genome.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.reddit.com/r/unixporn/comments/kzd6zt/qtile_genome/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-aesthetics">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/aesthetics/fall.png" class="img-fluid" alt="Ready For Fall">
+            <div class="galerie-info">
+              <h4>Ready For Fall</h4>
+              <p>Estetica</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/aesthetics/fall.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.reddit.com/r/unixporn/comments/j3mfc6/i3gaps_ready_for_fall/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-aesthetics">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/aesthetics/nord.png" class="img-fluid" alt="Nord">
+            <div class="galerie-info">
+              <h4>Nord</h4>
+              <p>Estetica</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/aesthetics/nord.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.reddit.com/r/unixporn/comments/gey3sx/openbox_another_nord_rice/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-aesthetics">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/aesthetics/paper.png" class="img-fluid" alt="Paper">
+            <div class="galerie-info">
+              <h4>Paper</h4>
+              <p>Estetica</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/aesthetics/paper.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.reddit.com/r/unixporn/comments/fxkkp2/openbox_paper/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-aesthetics">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/aesthetics/ios.png" class="img-fluid" alt="iOS">
+            <div class="galerie-info">
+              <h4>iOS</h4>
+              <p>Estetica</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/aesthetics/ios.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.reddit.com/r/unixporn/comments/evtm4l/gnome_ioslike_gnome_concept/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-aesthetics">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/aesthetics/mechanical.png" class="img-fluid" alt="Mechanical">
+            <div class="galerie-info">
+              <h4>Mechanical</h4>
+              <p>Estetica</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/aesthetics/mechanical.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://old.reddit.com/r/unixporn/comments/a900p7/awesome_mechanical_love/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-aesthetics">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/aesthetics/rain.png" class="img-fluid" alt="Rain">
+            <div class="galerie-info">
+              <h4>Rain</h4>
+              <p>Estetica</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/aesthetics/rain.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.reddit.com/r/unixporn/comments/8apait/openbox_fool_in_the_rain/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-aesthetics">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/aesthetics/nineties.png" class="img-fluid" alt="Nineties">
+            <div class="galerie-info">
+              <h4>Nineties</h4>
+              <p>Estetica</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/aesthetics/nineties.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.reddit.com/r/unixporn/comments/6m9du0/windowmaker_running_in_the_90s/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+		
+		<div class="col-lg-4 col-md-6 galerie-item filter-misc">
+          <div class="galerie-wrap">
+            <img src="assets/img/gallery/misc/redox-os.png" class="img-fluid" alt="Redox OS">
+            <div class="galerie-info">
+              <h4>Redox OS</h4>
+              <p>Altele</p>
+              <div class="galerie-links">
+                <a href="assets/img/gallery/misc/redox-os.png" data-gallery="Galerie" class="galerie-lightbox"><ion-icon name="add-outline"></ion-icon></a>
+                <a href="https://www.redox-os.org/"><ion-icon name="link-outline"></ion-icon></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- Sfarsit Sectiune Galerie -->
+
+  <!-- ### Sectiune Despre ### -->
+  <section id="despre" class="despre">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Despre</h2>
+        <p>Informatii Personale</p>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <ion-icon name="person-circle-outline" class="bx"></ion-icon>
+            <h3>Autor</h3>
+            <p>Armin Chanchian</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <ion-icon name="people-circle-outline" class="bx"></ion-icon>
+            <h3>Profesor</h3>
+            <p>Alina Caprarescu</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <ion-icon name="school-outline" class="bx"></ion-icon>
+            <h3>Liceu</h3>
+            <p>Liceul Teoretic "Horia Hulubei"</p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <ion-icon name="share-social-outline" class="bx"></ion-icon>
+            <h3>Legaturi</h3>
+            <div class="links">
+              <a href="http://github.com/armync"><ion-icon name="logo-github"></ion-icon></a>
+              <a href="https://www.arminc.ga/"><ion-icon name="home-outline"></ion-icon></a>
+              <a href="https://www.linkedin.com/in/arminc/"><ion-icon name="logo-linkedin"></ion-icon></a>
+              <a href="https://steamcommunity.com/id/arminc/"><ion-icon name="logo-steam"></ion-icon></a>
+			  <a href="mailto:arminandrey@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+            </div> 
+          </div>
+        </div>
+      </div>
+	  
+    </div>
+  </section><!-- Sfarsit Sectiune Despre -->
+
+  <div class="proiect">
+    Sursa <a href="https://github.com/ArmynC/ArminC-Atestat-Linux">GitHub</a>
+  </div>
+
+  <!-- Fisiere JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/glightbox@3.0.7/dist/js/glightbox.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@6.5.0/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/waypoints@4.0.1/lib/noframework.waypoints.min.js"></script>
+
+  <!-- Fisier Principal JS -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
