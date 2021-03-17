@@ -13,5 +13,11 @@ Proiect HTML cu tematica Linux pentru Atestatul la Informatica.
 <sub>(Previzualizare)</sub>
 </p>
 
-## License
+## Autori
+
+| [![ArminC](http://www.gamerconfig.eu/files/avatars/thumbnail_arminc.png)](https://linkedin.com/in/arminc) 	| [![BootstrapMade](https://bootstrapmade.com/theme/img/logo-hero.png)](https://bootstrapmade.com/)		|
+|:---------------------------------------------------------------------------------------------------------:	|:------------------------------------------------------------------------------------------------:		|
+|                                            **Armin Chanchian**                                            	|                                **BootstrapMade (for styling)**                         			    |
+
+## Licenta
 [GNU LGPLv3](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3))
