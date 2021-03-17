@@ -165,5 +165,5 @@
   const LightboxGalerie = GLightbox({
     selector: '.galerie-lightbox'
   });
-  
+
 })()
