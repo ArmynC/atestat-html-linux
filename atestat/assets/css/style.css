@@ -117,13 +117,16 @@ h1, h2, h3, h4, h5, h6 {
   #header h1 {
     font-size: 36px;
   }
+
   #header h2 {
     font-size: 20px;
     line-height: 30px;
   }
+
   #header .links {
     margin-top: 15px;
   }
+
   #header .container {
     display: flex;
     flex-direction: column;
@@ -163,6 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   #header.header-top {
     height: 60px;
   }
+
   #header.header-top h1 {
     font-size: 26px;
   }
@@ -191,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-.navbar li + li {
+.navbar li+li {
   margin-left: 30px;
 }
 
@@ -227,12 +231,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.navbar a:hover:before, .navbar li:hover > a:before, .navbar .active:before {
+.navbar a:hover:before, .navbar li:hover>a:before, .navbar .active:before {
   visibility: visible;
   width: 25px;
 }
 
-.navbar a:hover, .navbar .active, .navbar li:hover > a {
+.navbar a:hover, .navbar .active, .navbar li:hover>a {
   color: #fff;
 }
 
@@ -255,6 +259,7 @@ h1, h2, h3, h4, h5, h6 {
   .mobile-nav-toggle {
     display: block;
   }
+
   .navbar ul {
     display: none;
   }
@@ -296,7 +301,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 12px 20px;
 }
 
-.navbar-mobile li + li {
+.navbar-mobile li+li {
   margin: 0;
 }
 
@@ -335,6 +340,7 @@ section .container {
   section {
     top: 120px;
   }
+
   section.section-show {
     top: 80px;
   }
@@ -462,7 +468,6 @@ section .container {
 .istoric .content p:last-child {
   margin-bottom: 0;
 }
-
 
 /*--------------------------------------------------------------
 # Cronologie
@@ -689,7 +694,7 @@ section .container {
   position: relative;
 }
 
-.atribute .content ul li + li {
+.atribute .content ul li+li {
   margin-top: 10px;
 }
 
