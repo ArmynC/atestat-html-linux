@@ -472,32 +472,23 @@ section .container {
 /*--------------------------------------------------------------
 # Cronologie
 --------------------------------------------------------------*/
-.cronologie .accordion-collapse {
-  border: 0;
+.accordion-flush.accordion {
+  --bs-accordion-btn-bg: #ffffff;
+  --bs-accordion-active-bg: mintcream;
+  --bs-accordion-active-color: #000000;
+  --bs-accordion-bg: mintcream;
+  --bs-accordion-color: #000000;
+  --bs-accordion-btn-focus-box-shadow: none;
+  --bs-accordion-btn-focus-border-color: unset;
 }
 
-.cronologie .accordion-button {
-  padding: 15px 15px 20px 0;
-  font-weight: 600;
-  border: 0;
-  font-size: 18px;
-  color: #bdc3c7;
-  text-align: left;
+.accordion-flush .accordion-button {
+  border-top: 1px solid #000000;
 }
 
-.cronologie .accordion-button:focus {
-  box-shadow: none;
-}
-
-.cronologie .accordion-button:not(.collapsed) {
-  background: none;
-  color: #7f8c8d;
-  border-bottom: 0;
-}
-
-.cronologie .accordion-body {
-  padding: 0 0 25px 0;
-  border: 0;
+.accordion-flush .accordion-item:last-child .accordion-button.collapsed,
+.accordion-flush .accordion-item:last-child .accordion-body {
+  border-bottom: 1px solid #000000;
 }
 
 /*--------------------------------------------------------------
