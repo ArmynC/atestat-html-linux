@@ -7,7 +7,7 @@ Proiect HTML cu tematica Linux pentru Atestatul la Informatica.
 > Acesta este realizat cu cele mai moderne si eficiente tehnologii, codul sursa fiind scris in mod organizat si lizibil.
 
 
-![Atestat HTML Linux](https://github.com/ArmynC/atestat-html-linux/master/previzualizare.png)
+![Atestat HTML Linux](https://raw.githubusercontent.com/ArmynC/atestat-html-linux/main/previzualizare.png)
 <p align="right">
 <sub>(Previzualizare)</sub>
 </p>
