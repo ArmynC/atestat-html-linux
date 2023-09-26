@@ -1,4 +1,3 @@
-# ArminC-Atestat-Linux
 Proiect HTML cu tematica Linux pentru Atestatul la Informatica.
 
 #### Caracteristici
@@ -8,16 +7,16 @@ Proiect HTML cu tematica Linux pentru Atestatul la Informatica.
 > Acesta este realizat cu cele mai moderne si eficiente tehnologii, codul sursa fiind scris in mod organizat si lizibil.
 
 
-![ArminC Atestat Linux](https://raw.githubusercontent.com/ArmynC/ArminC-Atestat-Linux/master/previzualizare.png)
+![Atestat HTML Linux](https://github.com/ArmynC/atestat-html-linux/master/previzualizare.png)
 <p align="right">
 <sub>(Previzualizare)</sub>
 </p>
 
 ## Autori
 
-| [![ArminC](http://www.gamerconfig.eu/files/avatars/thumbnail_arminc.png)](https://linkedin.com/in/arminc) 	| <img src="https://bootstrapmade.com/theme/img/logo-hero.png" width="100" height="100">		|
-|:---------------------------------------------------------------------------------------------------------:	|:----------------------------------------------------------------------------------------:		|
-|                                            **Armin Chanchian**                                            	|                                 **BootstrapMade (stilizare)**                                 |
+| [![ArminC](http://www.gamerconfig.eu/files/avatars/thumbnail_arminc.png)](https://linkedin.com/in/arminc) 	| <img src="https://github.com/ArmynC/atestat-html-linux/master/bootstrapmde.png" width="100" height="100">		|
+|:---------------------------------------------------------------------------------------------------------:	|:--------------------------------------------------------------------------------------------------------:		|
+|                                            **Armin Chanchian**                                            	|                                         **BootstrapMade (stilizare)**                                         |
 
 ## Licenta
 [GNU LGPLv3](https://tldrlegal.com/license/gnu-lesser-general-public-license-v3-(lgpl-3))
