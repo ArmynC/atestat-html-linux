@@ -14,7 +14,7 @@ Proiect HTML cu tematica Linux pentru Atestatul la Informatica.
 
 ## Autori
 
-| [![ArminC](https://raw.githubusercontent.com/ArmynC/ArminC-Resources/main/images/a.png)](https://linkedin.com/in/arminc) 	| <img src="https://raw.githubusercontent.com/ArmynC/atestat-html-linux/main/bootstrapmade.png" width="100" height="100">		|
+| [![ArminC](https://raw.githubusercontent.com/ArmynC/ArminC-Resources/main/images/a_small.png)](https://github.com/ArmynC) | <img src="https://raw.githubusercontent.com/ArmynC/atestat-html-linux/main/bootstrapmade.png" width="100" height="100">		|
 |:---------------------------------------------------------------------------------------------------------:	|:---------------------------------------------------------------------------------------------------------:		|
 |                                            **Armin Chanchian**                                            	|                                          **BootstrapMade (stilizare)**                                            |
 
